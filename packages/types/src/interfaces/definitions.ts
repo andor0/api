@@ -50,6 +50,12 @@ export { default as scaleInfo } from './scaleInfo/definitions';
 // other useful types
 export { default as ethereum } from './ethereum/definitions';
 
+// social network types
+export { default as missionTokens } from './missionTokens/definitions';
+export { default as socialTreasury } from './socialTreasury/definitions';
+export { default as usernameRegistry } from './usernameRegistry/definitions';
+export { default as validatorRegistry } from './validatorRegistry/definitions';
+
 // pull in metadata & rpc last, assuming that is uses info from above
 export { default as metadata } from './metadata/definitions';
 export { default as rpc } from './rpc/definitions';
